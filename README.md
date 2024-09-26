@@ -21,3 +21,24 @@ Prerequisites:
 3. Required Spring Boot dependencies (e.g., Spring Security, Spring Data JPA, Spring Web)
 4. A supported database (e.g., PostgreSQL, MySQL)
 5. Google Cloud Platform credentials (for Google Sign-In)
+
+Configure database:
+1. Create a database user and database.
+2. Update the database connection settings in application.properties.
+
+Set up Google Cloud Platform credentials:
+1. Enable the Google Sign-In API in your Google Cloud Project.
+2. Create a service account and download the JSON key file.
+3. Place the JSON key file in the project directory and update the google.oauth2.client.id and google.oauth2.client.secret in application.properties.
+
+Access the application:
+Open a web browser and navigate to http://localhost:8080.
+
+Authentication:
+    Username and Password:
+      1. Enter your valid username and password.
+      2. Click the "Login" button.
+     
+    Google Sign-In:
+      1. Click the "Sign in with Google" button.
+      2. Follow the Google authentication process.
