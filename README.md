@@ -31,9 +31,6 @@ Set up Google Cloud Platform credentials:
 2. Create a service account and download the JSON key file.
 3. Place the JSON key file in the project directory and update the google.oauth2.client.id and google.oauth2.client.secret in application.properties.
 
-Access the application:
-Open a web browser and navigate to http://localhost:8080.
-
 Authentication:
     Username and Password:
       1. Enter your valid username and password.
